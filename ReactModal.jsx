@@ -19,6 +19,7 @@ const ReactModal = memo((props) => {
         if (copyState) {
             setTimeout(() => setCopyState(false), 3000)
         }
+    }
 
     return (
         <React.Fragment>
